@@ -24,7 +24,7 @@ export function Input({ name, label, ...rest }: InputProps) {
         }}
         size="lg"
         {...rest}
-      ></ChakraInput>
+      />
     </FormControl>
   );
 }
